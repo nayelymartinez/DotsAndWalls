@@ -1,4 +1,6 @@
-/** @jsx React.DOM */
+// Asynchronous module definitions (AMD)
+//var React = require('react');
+//var ReactDOM = require('react-dom');
 
 var SetupScreen = React.createClass({
 	handleClick: function() {
@@ -6,11 +8,12 @@ var SetupScreen = React.createClass({
 	},
 
 	render: function() {
+		console.log("Hi");
 		return (
 			<div>
 				<p> Enter a board size (>2):</p>
 				<form>
-					<input type='text' name='board_size' value="meow" />
+					<input type='text' name='board_size' value="" />
 					<br /><input type='submit' value='Submit' onClick={ this.handleClick } />
 				</form>
 			</div>

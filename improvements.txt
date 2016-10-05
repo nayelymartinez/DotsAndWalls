@@ -1,4 +1,5 @@
 // Improvements
 10/5:	Use Jinja templating url_for to call Game js files
+		Use ExtractTextPlugin for CSS files to be bundled into separate css file instead of inline.
 10/4: 	Test for non-int values user enters in board size.
 		Switch input text HTML element to counter
