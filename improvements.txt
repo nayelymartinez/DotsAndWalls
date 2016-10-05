@@ -1,0 +1,4 @@
+// Improvements
+10/5:	Use Jinja templating url_for to call Game js files
+10/4: 	Test for non-int values user enters in board size.
+		Switch input text HTML element to counter
