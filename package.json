@@ -1,0 +1,37 @@
+{
+  "name": "dotsandwalls",
+  "version": "1.0.0",
+  "description": "Python version of the classic game",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayelymartinez/Webapp-DotsAndWalls.git"
+  },
+  "keywords": [
+    "python",
+    "dots",
+    "walls",
+    "react",
+    "redux"
+  ],
+  "author": "Nayely E Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nayelymartinez/Webapp-DotsAndWalls/issues"
+  },
+  "homepage": "https://github.com/nayelymartinez/Webapp-DotsAndWalls#readme"
+}

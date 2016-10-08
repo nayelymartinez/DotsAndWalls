@@ -1,7 +1,3 @@
-// Asynchronous module definitions (AMD)
-//var React = require('react');
-//var ReactDOM = require('react-dom');
-
 var SetupScreen = React.createClass({
 	handleClick: function() {
 		var lorem_message = ["Test. Delete this eventually."];
