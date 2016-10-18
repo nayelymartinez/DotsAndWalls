@@ -59,12 +59,5 @@ export const setNextPlayer = (player_id) => {
 	}
 }
 
-export const updateNextPlayer = (player_id) => {
-	return {
-		type: 'UPDATE_NEXT_PLAYER',
-		player_id,
-	}
-}
-
 
 
